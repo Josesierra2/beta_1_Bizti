@@ -19,7 +19,7 @@ public class ServiciosCategoria {
         private IRepositorioCategoria repositorioCategoria;
 
     //Guardar 
-    public Categoria guardCategoria(Categoria datosCategoria){
+    public Categoria guardarCategoria(Categoria datosCategoria){
         return this.repositorioCategoria.save(datosCategoria);
         }
 
